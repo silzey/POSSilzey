@@ -19,7 +19,6 @@
       box-sizing: border-box;
       font-family: 'Inter', sans-serif;
     }
-
     body {
       background-color: #f0f4fb;
       color: #002244;
@@ -28,7 +27,6 @@
       max-width: 100vw;
       overflow-x: hidden;
     }
-
     header {
       background: linear-gradient(145deg, #0077cc, #005fa3);
       color: white;
@@ -36,17 +34,14 @@
       text-align: center;
       box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     }
-
     header h1 {
       font-size: 3rem;
       font-weight: 800;
     }
-
     header p {
       font-size: 1.3rem;
       margin-top: 1rem;
     }
-
     .features {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -55,7 +50,6 @@
       max-width: 1200px;
       margin: auto;
     }
-
     .feature {
       background: white;
       padding: 2rem;
@@ -63,22 +57,19 @@
       box-shadow: 0 6px 24px rgba(0, 0, 0, 0.08);
       text-align: center;
       transition: transform 0.2s;
-      min-width: 0; /* Prevent overflow on small screens */
+      min-width: 0;
     }
-
     .feature img {
       width: 60px;
       margin-bottom: 1rem;
       max-width: 100%;
       height: auto;
     }
-
     .feature h2 {
       color: #0077cc;
       font-size: 1.5rem;
       margin-bottom: 0.5rem;
     }
-
     .motto {
       background-color: #e6f0ff;
       text-align: center;
@@ -87,7 +78,6 @@
       font-size: 1.3rem;
       color: #004080;
     }
-
     .demo-section {
       background: white;
       padding: 4rem 2rem;
@@ -96,19 +86,16 @@
       border-radius: 16px;
       box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
     }
-
     .demo-section h2 {
       text-align: center;
       color: #005fa3;
       margin-bottom: 2rem;
     }
-
     form {
       display: flex;
       flex-direction: column;
       gap: 1rem;
     }
-
     input, textarea, button {
       padding: 1rem;
       border: 1px solid #ccc;
@@ -117,7 +104,6 @@
       width: 100%;
       box-sizing: border-box;
     }
-
     button {
       background: #0077cc;
       color: white;
@@ -126,23 +112,19 @@
       transition: background 0.3s;
       border: none;
     }
-
     button:hover {
       background: #005fa3;
     }
-
     .app-style {
       text-align: center;
       padding: 3rem 2rem;
     }
-
     .app-style img {
       max-width: 100%;
       border-radius: 20px;
       box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
       height: auto;
     }
-
     footer {
       text-align: center;
       padding: 1.5rem;
@@ -150,8 +132,6 @@
       background: #002244;
       color: #ffffff;
     }
-
-    /* Responsive Styles */
     @media (max-width: 900px) {
       header {
         padding: 3rem 1rem;
@@ -170,7 +150,6 @@
         padding: 2rem 1rem;
       }
     }
-
     @media (max-width: 600px) {
       header h1 {
         font-size: 2rem;
@@ -203,8 +182,6 @@
         font-size: 0.95rem;
       }
     }
-
-    /* Prevent horizontal shake on mobile by removing default margin/padding and hiding overflow */
     body, html {
       overflow-x: hidden !important;
       margin: 0 !important;
@@ -219,7 +196,6 @@
     <h1>SilzeyPOS Systems</h1>
     <p>Serving Cannabis Dispensaries & Businesses of All Sizes</p>
   </header>
-
   <section class="features">
     <div class="feature">
       <img src="https://img.icons8.com/ios-filled/100/0077cc/combo-chart--v1.png" alt="Analytics Icon">
@@ -252,11 +228,9 @@
       <p>Transparent and simple pricing with no surprises.</p>
     </div>
   </section>
-
   <div class="motto">
     "We are changing the game and the way things are done to meet the needs of the owners — putting money back in the pockets of the users."
   </div>
-
   <section class="features">
     <div class="feature">
       <img src="https://img.icons8.com/ios-filled/100/0077cc/cash-register.png" alt="POS Hardware Icon">
@@ -299,7 +273,7 @@
       <p>Empowering cannabis startups with the tech and guidance they need to launch and grow.</p>
     </div>
     <div class="feature">
-      <img src="https://img.icons8.com/ios-filled/100/0077cc/advertising.png" alt="Marketing Icon">
+      <img src="https://img.icons8.com/ios-filled/100/0077cc/company.png" alt="Business Icon">
       <h2>Startup Marketing</h2>
       <p>Marketing solutions designed for visibility, traction, and brand awareness in cannabis markets.</p>
     </div>
@@ -308,12 +282,20 @@
       <h2>Cannabis Analytic Tracking</h2>
       <p>Utilize our C.A.T.S. system to track, analyze, and optimize every facet of cannabis operations.</p>
     </div>
+    <div class="feature">
+      <img src="https://img.icons8.com/ios-filled/100/0077cc/approval.png" alt="Compliance Icon">
+      <h2>Automated Compliance Audits</h2>
+      <p>Reduce manual paperwork with built-in audit tools that automatically validate against state cannabis laws.</p>
+    </div>
+    <div class="feature">
+      <img src="https://img.icons8.com/ios-filled/100/0077cc/security-checked.png" alt="Secure Transactions Icon">
+      <h2>Secure Cannabis Transactions</h2>
+      <p>End-to-end encrypted POS transactions tailored for cash-heavy and regulation-intensive cannabis sales.</p>
+    </div>
   </section>
-
   <section class="app-style">
     <h2 style="font-size: 2rem; margin-bottom: 1rem; color: #002244;">Futuristic Consumer Inspired Interface</h2>
-    
-
+  </section>
   <section class="demo-section">
     <h2>Request a Free Demo</h2>
     <form id="demoForm" autocomplete="off">
@@ -325,13 +307,10 @@
       <div id="formSuccess" style="display:none; color:green; text-align:center; margin-top:1rem;">Thank you! Your demo request has been submitted.</div>
     </form>
   </section>
-
   <footer>
     &copy; 2025 SilzeyPOS Systems. All rights reserved.
   </footer>
-
   <script>
-    // Prevent default form submission and show a success message instead
     document.getElementById('demoForm').addEventListener('submit', function(e) {
       e.preventDefault();
       document.getElementById('formSuccess').style.display = 'block';
