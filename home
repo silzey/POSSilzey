@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SilzeyPOS Systems</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+
+    body {
+      background-color: #f0f4fb;
+      color: #002244;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(145deg, #0077cc, #005fa3);
+      color: white;
+      padding: 4rem 2rem;
+      text-align: center;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    header h1 {
+      font-size: 3rem;
+      font-weight: 800;
+    }
+
+    header p {
+      font-size: 1.3rem;
+      margin-top: 1rem;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+      padding: 4rem 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .feature {
+      background: white;
+      padding: 2rem;
+      border-radius: 20px;
+      box-shadow: 0 6px 24px rgba(0, 0, 0, 0.08);
+      text-align: center;
+    }
+
+    .feature img {
+      width: 60px;
+      margin-bottom: 1rem;
+    }
+
+    .feature h2 {
+      color: #0077cc;
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .motto {
+      background-color: #e6f0ff;
+      text-align: center;
+      padding: 3rem 2rem;
+      font-style: italic;
+      font-size: 1.3rem;
+      color: #004080;
+    }
+
+    .demo-section {
+      background: white;
+      padding: 4rem 2rem;
+      max-width: 800px;
+      margin: 3rem auto;
+      border-radius: 16px;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+    }
+
+    .demo-section h2 {
+      text-align: center;
+      color: #005fa3;
+      margin-bottom: 2rem;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    input, textarea, button {
+      padding: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 12px;
+      font-size: 1rem;
+    }
+
+    button {
+      background: #0077cc;
+      color: white;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    button:hover {
+      background: #005fa3;
+    }
+
+    .app-style {
+      text-align: center;
+      padding: 3rem 2rem;
+    }
+
+    .app-style img {
+      max-width: 100%;
+      border-radius: 20px;
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      font-size: 0.9rem;
+      background: #002244;
+      color: #ffffff;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>SilzeyPOS Systems</h1>
+    <p>Serving Cannabis Dispensaries & Businesses of All Sizes</p>
+  </header>
+
+  <section class="features">
+    <div class="feature">
+      <img src="https://img.icons8.com/ios-filled/100/0077cc/combo-chart--v1.png" alt="Analytics Icon">
+      <h2>Built-In Analytics</h2>
+      <p>Track your sales, inventory, and customer behavior with our advanced analytics dashboard.</p>
+    </div>
+    <div class="feature">
+      <img src="https://img.icons8.com/ios-filled/100/0077cc/android-os.png" alt="App Icon">
+      <h2>POS Mobile App</h2>
+      <p>Manage your business from anywhere with our companion mobile app for iOS and Android.</p>
+    </div>
+    <div class="feature">
+      <img src="https://img.icons8.com/ios-filled/100/0077cc/laptop.png" alt="Computer Icon">
+      <h2>Futuristic Design</h2>
+      <p>Sleek, Apple-inspired user experience with smooth navigation and modern UI elements.</p>
+    </div>
+    <div class="feature">
+      <img src="https://img.icons8.com/ios-filled/100/0077cc/customer-support.png" alt="Flexibility Icon">
+      <h2>User Flexibility</h2>
+      <p>Powerful tools for customization and workflows that adapt to how you run your business.</p>
+    </div>
+    <div class="feature">
+      <img src="https://img.icons8.com/ios-filled/100/0077cc/cheap-2.png" alt="Price Icon">
+      <h2>Cheaper Prices</h2>
+      <p>Affordable and competitive pricing built for businesses of all sizes.</p>
+    </div>
+    <div class="feature">
+      <img src="https://img.icons8.com/ios-filled/100/0077cc/visible.png" alt="No Hidden Fees Icon">
+      <h2>No Hidden Fees</h2>
+      <p>Transparent and simple pricing with no surprises.</p>
+    </div>
+  </section>
+
+  <div class="motto">
+    "We are changing the game and the way things are done to meet the needs of the owners — putting money back in the pockets of the users."
+  </div>
+
+  <section class="features">
+    <div class="feature">
+      <img src="https://img.icons8.com/ios-filled/100/0077cc/cash-register.png" alt="POS Hardware Icon">
+      <h2>Integrated POS Hardware</h2>
+      <p>Complete POS hardware solutions including barcode scanners, receipt printers, and cash drawers.</p>
+    </div>
+    <div class="feature">
+      <img src="https://img.icons8.com/ios-filled/100/0077cc/online-store.png" alt="Ecommerce Icon">
+      <h2>E-commerce Sync</h2>
+      <p>Sync your online and offline sales with powerful integration to your ecommerce platform.</p>
+    </div>
+    <div class="feature">
+      <img src="https://img.icons8.com/ios-filled/100/0077cc/business-report.png" alt="Reports Icon">
+      <h2>Real-Time Reports</h2>
+      <p>Instant reporting tools to view your business metrics and performance in real-time.</p>
+    </div>
+    <div class="feature">
+      <img src="https://img.icons8.com/ios-filled/100/0077cc/cannabis.png" alt="Cannabis Icon">
+      <h2>Cannabis Compliance</h2>
+      <p>Stay compliant with cannabis industry regulations including METRC, BioTrack, and more.</p>
+    </div>
+    <div class="feature">
+      <img src="https://img.icons8.com/ios-filled/100/0077cc/customer-insight.png" alt="Customer Icon">
+      <h2>Loyalty & CRM</h2>
+      <p>Enhance customer retention with loyalty rewards, profiles, and personalized marketing tools.</p>
+    </div>
+    <div class="feature">
+      <img src="https://img.icons8.com/ios-filled/100/0077cc/cloud.png" alt="Cloud Icon">
+      <h2>Cloud Based</h2>
+      <p>Access and manage your POS from anywhere with secure, cloud-based technology.</p>
+    </div>
+    <div class="feature">
+      <img src="https://img.icons8.com/ios-filled/100/0077cc/consultation.png" alt="Consulting Icon">
+      <h2>Business Consulting</h2>
+      <p>We offer strategic business consulting tailored to cannabis operations and dispensaries.</p>
+    </div>
+    <div class="feature">
+      <img src="https://img.icons8.com/ios-filled/100/0077cc/company.png" alt="Business Icon">
+      <h2>Startup Support</h2>
+      <p>Empowering cannabis startups with the tech and guidance they need to launch and grow.</p>
+    </div>
+    <div class="feature">
+      <img src="https://img.icons8.com/ios-filled/100/0077cc/advertising.png" alt="Marketing Icon">
+      <h2>Startup Marketing</h2>
+      <p>Marketing solutions designed for visibility, traction, and brand awareness in cannabis markets.</p>
+    </div>
+    <div class="feature">
+      <img src="https://img.icons8.com/ios-filled/100/0077cc/data-configuration.png" alt="Tracking System Icon">
+      <h2>Cannabis Analytic Tracking</h2>
+      <p>Utilize our C.A.T.S. system to track, analyze, and optimize every facet of cannabis operations.</p>
+    </div>
+  </section>
+
+  <section class="app-style">
+    <h2 style="font-size: 2rem; margin-bottom: 1rem; color: #002244;">Futuristic Apple-Inspired Interface</h2>
+    <img src="https://images.unsplash.com/photo-1618424189997-82e1e8cfc3d9?auto=format&fit=crop&w=1400&q=80" alt="POS Preview">
+  </section>
+
+  <section class="demo-section">
+    <h2>Request a Free Demo</h2>
+    <form>
+      <input type="text" name="name" placeholder="Full Name" required />
+      <input type="email" name="email" placeholder="Email Address" required />
+      <input type="tel" name="phone" placeholder="Phone Number" required />
+      <textarea name="message" rows="4" placeholder="Tell us about your business..." required></textarea>
+      <button type="submit">Submit Demo Request</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 SilzeyPOS Systems. All rights reserved.
+  </footer>
+</body>
+</html>
